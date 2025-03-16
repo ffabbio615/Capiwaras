@@ -14,7 +14,7 @@ export default function ConfirmBox({ message, onConfirm, onCancel, isOpen }){
                 <div className="message-button-container">
                     <p>{message}</p>
                     <div className="modal-buttons-container">
-                        <button onClick={onCancel} className="standard-small-button">Não</button>
+                        <button onClick={onCancel} className="remove-small-button">Não</button>
                         <button onClick={onConfirm} className="standard-small-button">Sim</button>
                     </div>
                 </div>
