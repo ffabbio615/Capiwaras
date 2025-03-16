@@ -81,12 +81,12 @@ export default function EditItemInBag(){
                 {item && (
                     <>
                         <div className="delivery-header-container">
-                            <div><img onClick={backToBag} src="../../src/assets/img/icons/backIcon.png" /></div>
+                            <div><img onClick={backToBag} src="/img/icons/backIcon.png" /></div>
                             <p>Voltar</p>
                         </div>
 
                         <div key={item.id} className="food-description-container">
-                            <img src={`../../src/assets/img/dishes/${item.picture}.jpg`}/>
+                            <img src={`/img/dishes/${item.picture}.jpg`}/>
                             <h1>{item.name}</h1>
                             <p className='food-description'>{item.description}</p>
                             { item.promoValue ?
@@ -119,7 +119,7 @@ export default function EditItemInBag(){
                                         <h6>{items.name}</h6>
                                         <p>+ R${items.originalValue.toFixed(2)}</p>
                                     </div>
-                                    <img src={`../../src/assets/img/dishes/${items.picture}.jpg`} />
+                                    <img src={`/img/dishes/${items.picture}.jpg`} />
                                     <div className="item-buttons-container">
                                         <button onClick={()=> editItemQuantityHandler(items.id, "", 0, 0, 0, "", item.name, "", "minus")}>-</button>
                                             <p id={`addItemQuantity${items.id}`}>

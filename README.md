@@ -1,8 +1,9 @@
-# React + Vite
+# Capiwaras
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Figma Mobile Only: https://www.figma.com/proto/mdVmzltaqw0vA0lC0iwcaj/Capiwaras?node-id=1-2&t=yJ5jx8QDzU0e3bQJ-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=63%3A2747
 
-Currently, two official plugins are available:
+Figma Screen Organization: https://www.figma.com/design/mdVmzltaqw0vA0lC0iwcaj/Capiwaras?node-id=0-1&t=d3XebypgrVGX44T5-1
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O mini projeto Capiwaras surgiu com a minha necessidade de fazer algo mais elaborado e também a necessidade de praticar React e Figma, que fazem parte dos últimos cursos que concluí. Inspirado em meu restaurante preferido, Giraffas, foi criada uma identidade visual própria, contendo paleta de cores e tipografia de projeto. Foram utilizados Adobe Illustrator, para criação de marca e Figma, para desenvolver o protótipo das telas. O conceito foi relacionar um animal que tivesse histórico com a fauna brasileira e o hábito de se alimentar de forma saudável, mesmo que sua aparência não indicasse isso. Após pesquisas, o animal escolhido foi a capivara. "Capiwara" em Tupi significa "Comedor de capim". Esse foi o significado perfeito para a "alimentação verde" que eu tinha em mente. O "duplo v", nome utilizado antigamente para se referir à letra "W", reforça a minha homenagem ao "Giraffas", que possui duas letras "F", assim como duas girafas na marca. Capiwaras foi pensado para ter o mesmo estilo de aplicativos delivery, porém foi dividido em 3 partes, sendo a Home para apresentação de banners criados com I.A e editados nos softwares Adobe Photoshop e Adobe Illustrator, além do Menu para fazer o cadastro, com edição e remoção dos itens e das categorias. A página Delivery simula um pedido. O projeto é mobile only e se comporta como tal em resoluções maiores, limitando seu tamanho ao de um Iphone 16 Pro Max.
+
+O projeto foi construído em HTML, Javascript, CSS (SASS) e React.

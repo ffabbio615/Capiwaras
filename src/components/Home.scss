@@ -43,9 +43,9 @@
 
         }
 
-        .advertising1{ @include advertising("../assets/img/carousel/advertising1.jpg"); }
-        .advertising2{ @include advertising("../assets/img/carousel/advertising2.jpg"); }
-        .advertising3{ @include advertising("../assets/img/carousel/advertising3.jpg"); }
+        .advertising1{ @include advertising("/img/carousel/advertising1.jpg"); }
+        .advertising2{ @include advertising("/img/carousel/advertising2.jpg"); }
+        .advertising3{ @include advertising("/img/carousel/advertising3.jpg"); }
 
         .enabled{
             animation: reveal-advertising 1.5s forwards;

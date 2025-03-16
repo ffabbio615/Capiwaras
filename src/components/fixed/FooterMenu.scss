@@ -31,15 +31,15 @@
                     align-items: center;
                     
                 .menu-icon{
-                    @include icons("../../assets/img/icons/menuIconTest.svg");
+                    @include icons("/img/icons/menuIconTest.svg");
                 }
 
                 .home-icon{
-                    @include icons("../../assets/img/icons/homeIcon.svg");
+                    @include icons("/img/icons/homeIcon.svg");
                 }
 
                 .delivery-icon{
-                    @include icons("../../assets/img/icons/deliveryIcon.svg");
+                    @include icons("/img/icons/deliveryIcon.svg");
                     height: 35px;
                     width: 55px;
                     background-size: 100% calc(100% - 5px);

@@ -23,16 +23,16 @@ export default function Delivery(){
             <div className='bag-items-container'>
                     {orderItems.length>0 ?
                         <>
-                            <img onClick={goToBag} className='bag-items bag-items-active' src="../src/assets/img/icons/bagIcon.svg" alt="Bag Icon" />
+                            <img onClick={goToBag} className='bag-items bag-items-active' src="/img/icons/bagIcon.svg" alt="Bag Icon" />
                             <p>{orderItems.filter(item => item.itemType === "main").length}</p>
                         </>
-                    :   <img className='bag-items bag-items-inactive' src="../src/assets/img/icons/bagIcon.svg" alt="Bag Icon" />
+                    :   <img className='bag-items bag-items-inactive' src="/img/icons/bagIcon.svg" alt="Bag Icon" />
                     }
             </div>
             <div className='header-container'>
                 <div className='header-background'></div>
                 <div className='header-logo'>
-                    <img src="../src/assets/img/capiwarasLogoPB.svg" alt="Logo Capiwaras" />
+                    <img src="/img/capiwarasLogoPB.svg" alt="Logo Capiwaras" />
                 </div>
                 <div className='capiwaras-Description-container'>
                     <div className='text-map-container'>
@@ -42,14 +42,14 @@ export default function Delivery(){
                                 <p>Distância: 1,7km - Entrega: R$5,00</p>
                             </div>
                             <div className='rate-time'>
-                                <img src='../src/assets/img/icons/star.svg' /><p>5,0 (125 avaliações)</p>
+                                <img src='/img/icons/star.svg' /><p>5,0 (125 avaliações)</p>
                                 <p>Tempo estimado para entrega: 25-45 min</p>
                             </div>
                         </div>
-                        <Link to={"https://maps.app.goo.gl/2ViUvSa4h4iYAHxXA"}><img src='../src/assets/img/maps/capiwarasMap.png' /></Link>
+                        <Link to={"https://maps.app.goo.gl/2ViUvSa4h4iYAHxXA"}><img src='/img/maps/capiwarasMap.png' /></Link>
                     </div>
                     <div className='capiwaras-delivery-symbol'>
-                        <img src="../src/assets/img/capiwarasSymbol.svg" alt="Símbolo da Logo Capiwaras" />
+                        <img src="/img/capiwarasSymbol.svg" alt="Símbolo da Logo Capiwaras" />
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@ export default function Delivery(){
                         { menuItems.filter((item) => item.category === "Promos do dia").map((item) => (
                                 <div key={item.id} onClick={()=> itemHandler(item.id)} className='food-option-menu'>
                                     <p className='food-discount'>{(((item.promoValue*100) / (item.originalValue*1)) - 100).toFixed(0)}%</p>
-                                    <img src={`../src/assets/img/dishes/${item.picture}.jpg`} className="food-image" alt='Imagem do Prato' />
+                                    <img src={`/img/dishes/${item.picture}.jpg`} className="food-image" alt='Imagem do Prato' />
                                     <p className='food-title'>{item.name}</p>
                                     <div className="item-price-container">
                                         <p className='promo-food-price'>R${item.promoValue.toFixed(2).replace(".",",")}</p>
@@ -91,7 +91,7 @@ export default function Delivery(){
                                 <p className='food-title'>{item.name}</p>
                                 <p className='food-description'>{item.description.length > 45 ? item.description.slice(0, 45) + "..." : item.description}</p>
                             </div>
-                                <img src={`../src/assets/img/dishes/${item.picture}.jpg`} className="food-image" alt='Imagem do Prato' />
+                                <img src={`/img/dishes/${item.picture}.jpg`} className="food-image" alt='Imagem do Prato' />
                             </div>
                             <div className="item-price-container"><p className='food-price'>a partir de R${item.originalValue.toFixed(2).replace(".",",")}</p></div>
                         </div>

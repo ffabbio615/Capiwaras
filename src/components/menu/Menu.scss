@@ -46,7 +46,7 @@
     
                 .add-button {
                     position: absolute;
-                    @include control-button('../../assets/img/icons/addButton.png');
+                    @include control-button('/img/icons/addButton.png');
                 }
             }
         }
@@ -69,13 +69,13 @@
                         .edit-button {
                             position: absolute;
                             margin-left: 5px;
-                            @include control-button('../../assets/img/icons/editButton.png');
+                            @include control-button('/img/icons/editButton.png');
                         }
     
                         .delete-button {
                             position: absolute;
                             margin-left: 35px;
-                            @include control-button('../../assets/img/icons/deleteButton.png');
+                            @include control-button('/img/icons/deleteButton.png');
                         }
                 }
 
@@ -127,14 +127,14 @@
                         position: absolute;
                         right: 25px;
                         top: -9px;
-                        @include control-button('../../assets/img/icons/editButton.png');
+                        @include control-button('/img/icons/editButton.png');
                     }
     
                     .delete-button {
                         position: absolute;
                         right: -9px;
                         top: -9px;
-                        @include control-button('../../assets/img/icons/deleteButton.png');
+                        @include control-button('/img/icons/deleteButton.png');
                     }
     
                     .food-image {

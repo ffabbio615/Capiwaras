@@ -78,10 +78,10 @@ export default function MenuEditItems(){
         { menuItems.filter((item)=> item.id === Number(itemId)).map((items) =>(
 
             <main key={items.id} className="edit-menu-container">
-                <img onClick={backToMenu} className="edit-menu-back-icon" src="../../src/assets/img/icons/backIcon.png" />
+                <img onClick={backToMenu} className="edit-menu-back-icon" src="/img/icons/backIcon.png" />
                 <div className="logo-container">
-                    <img className="symbol" src="../../src/assets/img/capiwarasSymbol.svg" alt="Símbolo da Logo Capiwaras" />
-                    <img className="logo" src="../../src/assets/img/capiwarasLogo.svg" alt="Logo da Logo Capiwaras" />
+                    <img className="symbol" src="/img/capiwarasSymbol.svg" alt="Símbolo da Logo Capiwaras" />
+                    <img className="logo" src="/img/capiwarasLogo.svg" alt="Logo da Logo Capiwaras" />
                 </div>
 
                 <div className="title-edit-menu">
@@ -91,7 +91,7 @@ export default function MenuEditItems(){
                 <div className="edit-menu-items-container">
                     <div className="edit-option-container">
                         <p className="option-title">{items.name}</p>
-                        <img className="item-image" src={`../../src/assets/img/dishes/${items.picture}.jpg`} />
+                        <img className="item-image" src={`/img/dishes/${items.picture}.jpg`} />
                     </div>
                 </div>
 

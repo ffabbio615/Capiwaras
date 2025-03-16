@@ -92,11 +92,11 @@ export default function CapiwarasBag(){
             <div className='header-container'>
                 <div className='header-background'></div>
                 <div className='header-logo'>
-                    <img src="../../src/assets/img/capiwarasLogoPB.svg" alt="Símbolo da Logo Capiwaras" />
+                    <img src="/img/capiwarasLogoPB.svg" alt="Símbolo da Logo Capiwaras" />
                 </div>
                 <div className='capiwaras-Description-container'>
                     <div className='capiwaras-delivery-symbol'>
-                        <img src="../../src/assets/img/capiwarasSymbol.svg" alt="Símbolo da Logo Capiwaras" />
+                        <img src="/img/capiwarasSymbol.svg" alt="Símbolo da Logo Capiwaras" />
                     </div>
                     
                     <div className='text-container'>
@@ -120,7 +120,7 @@ export default function CapiwarasBag(){
                                 <p>+ R${items.promoValue > 0 ? items.promoValue.toFixed(2).replace(".",",") : items.originalValue.toFixed(2).replace(".",",")}</p>
                             </div>
                             { menuItems.filter((item) => item.id === items.itemId).map((item => (
-                                <img key={item.id} src={`../../src/assets/img/dishes/${item.picture}.jpg`} />
+                                <img key={item.id} src={`/img/dishes/${item.picture}.jpg`} />
                             )))}
                             <div className="item-buttons-container">
                                 <button onClick={()=> itemQuantityHandler(items.name, items.orderId, "minus")}>-</button>

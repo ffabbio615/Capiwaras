@@ -116,10 +116,10 @@ export default function MenuAddItems(){
         {AlertBoxComponent}
         {ConfirmBoxComponent}
         <main className="add-menu-container">
-            <img onClick={backToMenu} className="add-menu-back-icon" src="../src/assets/img/icons/backIcon.png" />
+            <img onClick={backToMenu} className="add-menu-back-icon" src="/img/icons/backIcon.png" />
             <div className="logo-container">
-                <img className="symbol" src="../src/assets/img/capiwarasSymbol.svg" alt="Símbolo da Logo Capiwaras" />
-                <img className="logo" src="../src/assets/img/capiwarasLogo.svg" alt="Logo da Logo Capiwaras" />
+                <img className="symbol" src="/img/capiwarasSymbol.svg" alt="Símbolo da Logo Capiwaras" />
+                <img className="logo" src="/img/capiwarasLogo.svg" alt="Logo da Logo Capiwaras" />
             </div>
 
             <div className="title-add-menu">

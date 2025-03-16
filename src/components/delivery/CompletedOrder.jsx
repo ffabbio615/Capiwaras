@@ -79,11 +79,11 @@ export default function CompletedOrder(){
             <div className='header-container'>
                 <div className='header-background'></div>
                 <div className='header-logo'>
-                    <img src="../../../src/assets/img/capiwarasLogoPB.svg" alt="Símbolo da Logo Capiwaras" />
+                    <img src="/img/capiwarasLogoPB.svg" alt="Símbolo da Logo Capiwaras" />
                 </div>
                 <div className='capiwaras-Description-container'>
                     <div className='capiwaras-delivery-symbol'>
-                        <img src="../../../src/assets/img/capiwarasSymbol.svg" alt="Símbolo da Logo Capiwaras" />
+                        <img src="/img/capiwarasSymbol.svg" alt="Símbolo da Logo Capiwaras" />
                     </div>
                     
                     <div id="text-container" className='text-container'>
@@ -105,7 +105,7 @@ export default function CompletedOrder(){
                             <h6>{`${items.quantity}x ${items.name}`}</h6>
                         </div>
                         {menuItems.filter((item) => item.id === items.itemId).map((item) => (
-                        <img key={item.id} src={`../../../src/assets/img/dishes/${item.picture}.jpg`} />
+                        <img key={item.id} src={`/img/dishes/${item.picture}.jpg`} />
                         ))}
                     </div>
                     

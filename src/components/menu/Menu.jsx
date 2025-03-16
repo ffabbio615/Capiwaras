@@ -33,8 +33,8 @@ export default function Menu(){
         {ConfirmBoxComponent}
         <main className="menu-container">
             <div className="logo-container">
-                <img className="symbol" src="../src/assets/img/capiwarasSymbol.svg" alt="Símbolo da Logo Capiwaras" />
-                <img className="logo" src="../src/assets/img/capiwarasLogo.svg" alt="Logo da Logo Capiwaras" />
+                <img className="symbol" src="/img/capiwarasSymbol.svg" alt="Símbolo da Logo Capiwaras" />
+                <img className="logo" src="/img/capiwarasLogo.svg" alt="Logo da Logo Capiwaras" />
             </div>
 
             <div className="title-menu">
@@ -74,7 +74,7 @@ export default function Menu(){
                                         <div key={items.id} className='food-option-menu'>
                                             <button onClick={()=> editedItemMenu(items.id)} className="edit-button"></button>
                                             <button onClick={()=> handleDeleteMenuItem(items.id)} className="delete-button"></button>
-                                            <img src={`../src/assets/img/dishes/${items.picture}.jpg`} className="food-image" alt='Imagem do Prato' />
+                                            <img src={`/img/dishes/${items.picture}.jpg`} className="food-image" alt='Imagem do Prato' />
                                             <p className='food-title'>{items.name}</p>
                                             <div className="item-price-container"><p className='food-price'>R${items.promoValue >0 ? items.promoValue.toFixed(2).replace(".",",") : items.originalValue.toFixed(2).replace(".",",")}</p></div>
                                         </div>
